@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const bg =
   "https://images.pexels.com/photos/8313/food-eating-potatoes-beer-8313.jpg?cs=srgb&dl=dinner-food-meal-8313.jpg&fm=jpg";
 
@@ -41,8 +42,8 @@ const Home = props => {
                 </div>
               </form>
               <div className="copy-text">
-                Created with <i className="fa fa-heart" /> by{" "}
-                <a href="https://github.com/hoslack">Hoslack Ochieng</a>
+                New here? &nbsp;
+                <Link to={"/signup"}>Create an Account</Link>
               </div>
             </div>
             <div className="col-md-8 banner-sec">
