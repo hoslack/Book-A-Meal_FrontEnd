@@ -3,17 +3,13 @@
 }
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 .login-block {
-  background: #de6262; /* fallback for old browsers */
+  background: #de6262 no-repeat; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
     #ffb88c,
     #de6262
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #ffb88c,
-    #de6262
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #ffb88c, #de6262) no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   float: left;
   width: 100%;
   padding: 50px 0;
@@ -26,7 +22,7 @@
   padding: 0;
 }
 .container {
-  background: #fff;
+  background: #fff no-repeat;
   border-radius: 10px;
   box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1);
 }
@@ -307,11 +303,7 @@ body {
     #ffb88c,
     #de6262
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #ffb88c,
-    #de6262
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #ffb88c, #de6262) cover; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .sign-up {
@@ -539,4 +531,8 @@ input {
 ::-moz-focus-inner {
   border: 0;
   padding: 0;
+}
+
+.name {
+  background-color: #a93c3c;
 }
